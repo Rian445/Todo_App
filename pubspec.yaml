@@ -1,0 +1,30 @@
+name: todoapp_final
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1  # Add this line for flutter_launcher_icons
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_foreground: "assets/icon.png"  # For Android adaptive icons
+  adaptive_icon_background: "#ffffff"  # Change background color if needed
+
+flutter:
+  uses-material-design: true
