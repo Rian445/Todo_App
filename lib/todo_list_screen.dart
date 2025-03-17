@@ -138,7 +138,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
                       'priority': priority,
                     });
                   });
-                  _saveTasks(); // Save tasks to shared preferences
+                  _saveTasks(); 
                   Navigator.pop(context);
                 }
               },
@@ -236,7 +236,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
                       'priority': updatedPriority,
                     };
                   });
-                  _saveTasks(); // Save tasks to shared preferences
+                  _saveTasks(); 
                   Navigator.pop(context);
                 }
               },
@@ -252,7 +252,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
   void _deleteTask(int index) {
     setState(() {
       tasks.removeAt(index);
-      _saveTasks(); // Save tasks after deletion
+      _saveTasks(); 
     });
   }
 
